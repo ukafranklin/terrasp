@@ -103,10 +103,10 @@
   }
 }
 .animate-up {
-  animation: slideVertical 8s ease infinite;
+  animation: slideVertical 8s linear infinite;
 }
 .animate-down {
-  animation: slideDown 8s ease infinite;
+  animation: slideDown 8s linear infinite;
 }
 .reversedClip:before {
   content: "";
