@@ -7,7 +7,7 @@ export default function DotImage({
 }) {
   return (
     <div className=" w-[50%]  flex  min-h-[540px] relative isolate ">
-      <div className=" w-[86%] mt-auto  self-end">
+      <div className=" w-[86%] max-w-[471px] mt-auto  self-end">
         <CloudImage
           src={image}
           alt=""

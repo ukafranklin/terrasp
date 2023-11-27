@@ -9,12 +9,15 @@ export default function FlexCard({
   href,
   bg,
   reverse,
+  id,
   list,
 }) {
   const ReversedCard = () => {
     return (
       <div
-        className={`bg-[${bg}]  relative isolate flex gap-[50px]  pb-[300px] px-[170px] pt-[0px]`}
+        className={`bg-[${bg}] ${
+          id === 3 && "peach-color"
+        } relative isolate flex gap-[50px]  pb-[300px] px-[170px] pt-[0px]`}
       >
         <Feature
           title={title}
@@ -49,7 +52,9 @@ export default function FlexCard({
   const UnreversedCard = () => {
     return (
       <div
-        className={`bg-[${bg}]  relative isolate flex gap-[50px]  pb-[300px] px-[170px] pt-[0px]`}
+        className={`bg-[${bg}] ${
+          id === 3 && "peach-color"
+        }  relative isolate flex gap-[50px]  pb-[300px] px-[170px] pt-[0px]`}
       >
         <DotImage
           image={image}

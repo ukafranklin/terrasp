@@ -79,6 +79,9 @@
 .remove-scrollbar::-webkit-scrollbar {
   display: none;
 }
+.peach-color {
+  background-color: #fad6ab !important;
+}
 .clip {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 90%, 0 100%, 0% 50%);
 }
