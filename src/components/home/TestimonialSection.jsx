@@ -15,30 +15,34 @@ export default function TestimonialSection() {
       </p>
       <div className="  pl-10 pr-6 h-[500px] flex justify-between mt-[60px] bg-[#f9f8f9] rounded-[10px]">
         <div className=" h-full remove-scrollbar  flex overflow-y-auto w-[51%] justify-between">
-          <div className=" remove-scrollbar  space-y-4 h-full text-left overflow-y-auto w-[45%]">
-            {testimonials.slice(0, 5).map((testimony) => (
-              <TestimonyCard
-                up
-                key={testimony.id}
-                image={testimony.image}
-                testimony={testimony.testimony}
-                logo={testimony.logo}
-                name={testimony.name}
-                title={testimony.title}
-              />
-            ))}
+          <div className=" remove-scrollbar  h-full text-left overflow-y-auto w-[45%]">
+            <div className=" h-full space-y-4 ">
+              {testimonials.map((testimony) => (
+                <TestimonyCard
+                  up
+                  key={testimony.id}
+                  image={testimony.image}
+                  testimony={testimony.testimony}
+                  logo={testimony.logo}
+                  name={testimony.name}
+                  title={testimony.title}
+                />
+              ))}
+            </div>
           </div>
-          <div className=" remove-scrollbar space-y-4 text-left h-full overflow-y-auto w-[45%]">
-            {testimonials.slice(6).map((testimony) => (
-              <TestimonyCard
-                key={testimony.id}
-                image={testimony.image}
-                testimony={testimony.testimony}
-                logo={testimony.logo}
-                name={testimony.name}
-                title={testimony.title}
-              />
-            ))}
+          <div className=" remove-scrollbar text-left h-full overflow-y-auto w-[45%]">
+            <div className="h-full  space-y-4 ">
+              {testimonials.map((testimony) => (
+                <TestimonyCard
+                  key={testimony.id}
+                  image={testimony.image}
+                  testimony={testimony.testimony}
+                  logo={testimony.logo}
+                  name={testimony.name}
+                  title={testimony.title}
+                />
+              ))}
+            </div>
           </div>
         </div>
         <div className=" self-end w-[40%] ">

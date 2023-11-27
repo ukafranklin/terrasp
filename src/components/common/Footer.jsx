@@ -29,7 +29,7 @@ export default function Footer() {
     },
   ];
   return (
-    <footer className="  pl-[170px] pr-[83px] py-[68px] bg-[#16022A] ">
+    <footer className=" z-[700000] isolate pl-[170px] pr-[83px] py-[68px] bg-[#16022A] ">
       <div className=" flex flex-wrap justify-between mb-[92px]">
         <div>
           <div className=" mb-11">
@@ -53,7 +53,7 @@ export default function Footer() {
               <h3 className=" mb-4 text-[#893687] font-barlow font-bold text-xl leading-10 capitalize">
                 {links.title}
               </h3>
-              <ul>
+              <ul className=" list-none">
                 {links.subLinks.map((link) => (
                   <li key={link.id}>
                     <Link

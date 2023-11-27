@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BigLink from "../common/BigLink";
 
 export default function GetStarted() {
   return (
@@ -11,12 +12,11 @@ export default function GetStarted() {
           Step Up A Free Account Today
         </p>
       </div>
-      <Link
-        href="#"
-        className=" bg-[#240046] rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] text-white"
-      >
-        Create A Free Account
-      </Link>
+      <div>
+        <BigLink href="https://test.pg.terraswitch.ng/register">
+          Create a Free Account
+        </BigLink>
+      </div>
     </div>
   );
 }

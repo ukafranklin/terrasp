@@ -11,7 +11,7 @@ export default function Partners() {
     "up_3x_fljvyu",
   ];
   return (
-    <div className=" px-[170px] pb-[55px] pt-6">
+    <div className="clip bg-white mt-[-70px] px-[170px] pb-[55px] pt-6">
       <h2 className=" mb-[18px] text-darkPurple font-barlow text-xl font-semibold">
         Trusted By Excellent Partners
       </h2>

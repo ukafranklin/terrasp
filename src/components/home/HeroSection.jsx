@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <div className="flex clip bg-linear justify-between px-[170px] pt-[89px] pb-[170px]">
+    <div className="flex bg-linear justify-between px-[170px] pt-[89px] pb-[170px]">
       <div className=" w-[45%] self-center">
         <h1 className=" leading-[141.463%] font-barlow font-[700] text-[41px] max-w-[470px] text-[#240046] ">
           Flexible Payment <br></br> Options to Solve Your <br></br>Everyday{" "}
@@ -45,7 +45,7 @@ export default function HeroSection() {
           alt=""
           width={1132}
           height={1975}
-          className=" absolute top-[-30px] right-[-30px] w-[283px]"
+          className=" absolute top-[-30px] right-[-30px] w-[283px] 2xl:w-[350px]"
         />
         <CldImage
           src="Terra/chart_4x_qpnjgp"

@@ -1,6 +1,6 @@
 import { checkAll, htmlLogo, securityLock } from "@/assets";
 import Image from "next/image";
-import Link from "next/link";
+import BigLink from "../common/BigLink";
 
 export default function FeatureSection() {
   const list = [
@@ -46,12 +46,10 @@ export default function FeatureSection() {
           functionalities.
         </p>
         <div className="mt-9 z-50">
-          <Link
-            href="#"
-            className="  bg-[#240046] rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] text-white"
-          >
+          <BigLink href="https://terrapg.readme.io/reference/getting-started-with-your-direct-api">
+            {" "}
             Read Our API Docs
-          </Link>
+          </BigLink>
         </div>
         <Image
           src={htmlLogo}

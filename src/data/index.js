@@ -7,19 +7,31 @@ import {
 } from "@/assets";
 
 export const navigationLinks = [
-  {
-    title: "Blog",
-    href: "/blog",
-    id: 1,
-  },
+  // {
+  //   title: "Blog",
+  //   href: "/blog",
+  //   id: 1,
+  // },
   {
     title: "Company",
 
     id: 2,
     subLinks: [
       {
-        title: "Something",
-        href: "/something",
+        title: "About Us",
+        href: "/about",
+      },
+      {
+        title: "Contact Us",
+        href: "/contact",
+      },
+      {
+        title: "Careers",
+        href: "https://www.bamboohr.com/signup/",
+      },
+      {
+        title: "Support",
+        href: "#",
       },
     ],
   },
@@ -27,73 +39,135 @@ export const navigationLinks = [
     title: "Products",
     href: "/products",
     id: 3,
-  },
-  {
-    title: "Invoices",
-    href: "/invoices",
-    id: 4,
-  },
-  {
-    title: "APIs",
-    href: "/api",
-    id: 1,
-  },
-];
-export const footerNavigationLinks = [
-  {
-    id: 1,
-    title: "Product",
     subLinks: [
       {
-        name: "Payment Link",
-        href: "#",
-        id: 1,
+        title: "PaymentLink",
+        href: "/products/#paymentLink",
       },
       {
-        name: "Store",
-        href: "#",
-        id: 2,
+        title: "Store",
+        href: "/products/#store",
       },
       {
-        name: "Subscription",
-        href: "#",
-        id: 3,
+        title: "Subscription",
+        href: "/products//#subscription",
       },
       {
-        name: "API",
-        href: "#",
-        id: 4,
+        title: "API",
+        href: "/products/#api",
       },
       {
-        name: "Invoices",
-        href: "#",
-        id: 5,
+        title: "Invoices",
+        href: "/products/#invoices",
       },
     ],
   },
+  {
+    title: "Knowledge Base",
+    href: "/invoices",
+    id: 4,
+    subLinks: [
+      {
+        title: "Blog",
+        href: "/blog",
+      },
+      {
+        title: "FAQ",
+        href: "/contact/#FAQ",
+      },
+    ],
+  },
+  {
+    title: "Legal",
+    href: "/legal",
+    id: 1,
+    subLinks: [
+      {
+        title: "Privacy",
+        href: "/legal",
+      },
+      {
+        title: "TOS",
+        href: "/legal",
+      },
+      {
+        title: "Compliance",
+        href: "/legal",
+      },
+    ],
+  },
+];
+export const footerNavigationLinks = [
   {
     id: 2,
     title: "Company",
     subLinks: [
       {
         name: "About Us",
-        href: "#",
+        href: "/about",
         id: 1,
       },
       {
         name: "Contact Us",
-        href: "#",
+        href: "/contact",
         id: 1,
       },
       {
         name: "Careers",
+        href: "https://www.bamboohr.com/signup/",
+        id: 1,
+      },
+      {
+        name: "Support",
         href: "#",
         id: 1,
       },
+    ],
+  },
+  {
+    id: 1,
+    title: "Product",
+    subLinks: [
+      {
+        name: "Payment Link",
+        href: "products/#paymentLink",
+        id: 1,
+      },
+      {
+        name: "Store",
+        href: "products/#store",
+        id: 2,
+      },
+      {
+        name: "Subscription",
+        href: "/products/#subscription",
+        id: 3,
+      },
+      {
+        name: "API",
+        href: "/products/#api",
+        id: 4,
+      },
+      {
+        name: "Invoices",
+        href: "/products/#invoices",
+        id: 5,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Knowledge Base",
+    subLinks: [
       {
         name: "Blog",
         href: "#",
         id: 1,
+      },
+      {
+        name: "FAQ",
+        href: "/contact/#FAQ",
+        id: 2,
       },
     ],
   },
@@ -103,38 +177,17 @@ export const footerNavigationLinks = [
     subLinks: [
       {
         name: "Privacy Policy",
-        href: "#",
+        href: "/legal",
         id: 1,
       },
       {
         name: "TOS",
-        href: "#",
+        href: "/legal",
         id: 2,
       },
       {
         name: "Compliance",
-        href: "#",
-        id: 3,
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Help",
-    subLinks: [
-      {
-        name: "Knowledge Base",
-        href: "#",
-        id: 1,
-      },
-      {
-        name: "FAQ",
-        href: "#",
-        id: 2,
-      },
-      {
-        name: "Contact Support",
-        href: "#",
+        href: "/legal",
         id: 3,
       },
     ],
@@ -147,7 +200,7 @@ export const paymentData = [
     description:
       "Create a free ecommerce website and start selling worldwide with just a few clicks.",
     cta: "Start Selling",
-    href: "#",
+    href: "https://test.pg.terraswitch.ng/register",
   },
   {
     id: 2,
@@ -155,7 +208,7 @@ export const paymentData = [
     description:
       "Generate professional invoices for your customers and get paid from anywhere.",
     cta: "Get Started",
-    href: "#",
+    href: "https://test.pg.terraswitch.ng/register",
   },
   {
     id: 3,
@@ -163,7 +216,7 @@ export const paymentData = [
     description:
       "Receive one-off or recurring payments from anyone, anywhere, via your unique payment link.",
     cta: "Learn More",
-    href: "#",
+    href: "https://test.pg.terraswitch.ng/register",
   },
 ];
 export const testimonials = [
@@ -258,5 +311,226 @@ export const testimonials = [
     image: profileImage,
     name: "Patrick Collison",
     title: "CEO, Stripe",
+  },
+];
+export const productsSections = [
+  {
+    id: 1,
+    title: "Payment Link",
+    description:
+      "Give your customers the gift of modern, frictionless, painless payments. Integrate TerraSwitach once and let your customers pay you however they want.",
+    list: [
+      "Collect one-time and recurring payments from your app or website",
+      "Retrieve all your transaction and customer data",
+      "Verify the identity of customers",
+    ],
+    cta: "Set Up a Payment Link",
+    href: "https://test.pg.terraswitch.ng/register",
+    image: "Terra/im1_4x_tav8rw",
+    backgroundColor: "white",
+    link: "paymentLink",
+    reverse: false,
+  },
+  {
+    id: 2,
+    title: "Invoices",
+    description:
+      "Give your customers the gift of modern, frictionless, painless payments. Integrate TerraSwitach once and let your customers pay you however they want.",
+    list: [
+      "Collect one-time and recurring payments from your app or website",
+      "Retrieve all your transaction and customer data",
+      "Verify the identity of customers",
+    ],
+    cta: "Generate an Invoice",
+    href: "https://test.pg.terraswitch.ng/register",
+    image: "Terra/im2_4x_hliktn",
+    backgroundColor: "#F7EFF7",
+    reverse: true,
+    link: "invoices",
+  },
+  {
+    id: 3,
+    title: "Subscriptions",
+    description:
+      "Give your customers the gift of modern, frictionless, painless payments. Integrate TerraSwitach once and let your customers pay you however they want.",
+    list: [
+      "Collect one-time and recurring payments from your app or website",
+      "Retrieve all your transaction and customer data",
+      "Verify the identity of customers",
+    ],
+    cta: "Create a Subscription Plan",
+    href: "https://test.pg.terraswitch.ng/register",
+    image: "Terra/im3_4x_wsydsz",
+    backgroundColor: "#FAD6AB",
+    reverse: false,
+    link: "subscription",
+  },
+];
+export const teamData = [
+  {
+    id: 1,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 12,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 13,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 15,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 16,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 17,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 81,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 91,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 132,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 13,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 123,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 109,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 167,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 145,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 23,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+  {
+    id: 56,
+    name: "Olukayode Adeniji",
+    title: "Head of Business",
+    image: "Terra/im3_3x_pdnsk5",
+  },
+];
+export const valuesData = [
+  {
+    id: 1,
+    key: "Flexibility",
+    value:
+      "In an ever-evolving digital world, flexibility is key. At TerraSwitch, we adapt to the changing needs of our clients and the market, ensuring that our solutions are always relevant, responsive, and ahead of the curve.",
+  },
+  {
+    id: 2,
+    key: "Integrity",
+    value:
+      "Our commitment to integrity is unwavering. We believe in conducting our business with the utmost honesty and ethical standards, fostering a culture of trust and reliability that our clients can depend on.",
+  },
+  {
+    id: 3,
+    key: "Innovation",
+    value:
+      "Innovation is at the heart of TerraSwitch. We continuously push the boundaries of what's possible in payment processing, delivering state-of-the-art solutions that redefine convenience, security, and efficiency.",
+  },
+  {
+    id: 4,
+    key: "Growth & Development",
+    value:
+      "We are committed to the continuous growth and development of our company, our people, and our solutions. TerraSwitch invests in ongoing learning and improvement, ensuring that we are always at the forefront of the payment industry.",
+  },
+  {
+    id: 4,
+    key: "Transparency",
+    value:
+      "Clarity and openness are fundamental to our operations. We maintain transparency in all our dealings, providing our clients with clear, straightforward information and fostering an environment of mutual respect and understanding.",
+  },
+  {
+    id: 4,
+    key: "Excellence",
+    value:
+      "Excellence is not just a goal but a standard at TerraSwitch. From our products to our customer service, we strive for the highest quality in everything we do, ensuring that we deliver nothing but the best to our clients.",
+  },
+];
+export const faqData = [
+  {
+    id: 1,
+    key: "Does My Business Work For An Online Store?",
+    value:
+      "lorem ipsum dolor sit amet, consectetur adip e ea commodo consequ velit vel aug  commodo vel aug commodo consequ velit vel aug commodo consequ velit vel aug commodo",
+  },
+  {
+    id: 2,
+    key: "What Is The Maximum Amount I Can Receive?",
+    value:
+      "lorem ipsum dolor sit amet, consectetur adip e ea commodo consequ velit vel aug  commodo vel aug commodo consequ velit vel aug commodo consequ velit vel aug commodo",
+  },
+  {
+    id: 3,
+    key: "What Documents Do I Need For Compliance?",
+    value:
+      "lorem ipsum dolor sit amet, consectetur adip e ea commodo consequ velit vel aug  commodo vel aug commodo consequ velit vel aug commodo consequ velit vel aug commodo",
+  },
+  {
+    id: 4,
+    key: "How Do I Generate A Link",
+    value:
+      "lorem ipsum dolor sit amet, consectetur adip e ea commodo consequ velit vel aug  commodo vel aug commodo consequ velit vel aug commodo consequ velit vel aug commodo",
+  },
+  {
+    id: 5,
+    key: "Can I Monitor Payments From Different Customers?",
+    value:
+      "lorem ipsum dolor sit amet, consectetur adip e ea commodo consequ velit vel aug  commodo vel aug commodo consequ velit vel aug commodo consequ velit vel aug commodo",
   },
 ];

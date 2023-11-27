@@ -18,28 +18,21 @@ module.exports = {
     extend: {
       backgroundImage: {
         linear: "linear-gradient(180deg, #FFF 0%, #F6F5F7 100%)",
+        purpleGradient: "linear-gradient(180deg, #893686 0%, #240046 100%)",
       },
       keyframes: {
-        slideVertical: {
-          "0%": {
-            transform: "translateY(0)",
-          },
-          "25%": {
-            transform: "translateY(25%)",
-          },
-          "50%": {
-            transform: "translateY(50%)",
-          },
-          "75%": {
-            transform: "translateY(75%)",
-          },
-          "100%": {
-            transform: "translateY(100%)",
-          },
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
-        slideVertical: "slideVertical 5s ease infinite",
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
         cairo: "'Cairo', sans-serif",
@@ -51,7 +44,7 @@ module.exports = {
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         purple: "#893688",
-        darkPurple: "#240056",
+        darkPurple: "#240046",
         yellow: "#ff9e01",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
