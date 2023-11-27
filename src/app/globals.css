@@ -86,24 +86,27 @@
   clip-path: circle(104.8% at 2% 89%);
 }
 @keyframes slideVertical {
-  to {
-    transform: translateY(-250%);
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-250px * 4));
   }
 }
 
 @keyframes slideDown {
-  from {
-    transform: translateY(-350%);
+  0% {
+    transform: translateY(calc(-250px * 4));
   }
-  to {
-    transform: translateY(0%);
+  100% {
+    transform: translateY(0);
   }
 }
 .animate-up {
-  animation: slideVertical 5s ease infinite;
+  animation: slideVertical 8s ease infinite;
 }
 .animate-down {
-  animation: slideDown 5s ease infinite;
+  animation: slideDown 8s ease infinite;
 }
 .reversedClip:before {
   content: "";

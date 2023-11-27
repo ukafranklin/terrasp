@@ -10,9 +10,7 @@ export default function TestimonyCard({
 }) {
   return (
     <div
-      className={`  px-[18px] py-5 ${
-        up ? "animate-down" : "animate-up"
-      } bg-white border border-solid border-[#b3b3b3] rounded-[16px]`}
+      className={`  px-[18px] py-5 bg-white border border-solid border-[#b3b3b3] rounded-[16px]`}
     >
       <div>
         <Image src={logo} alt="" />

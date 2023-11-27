@@ -16,7 +16,7 @@ export default function TestimonialSection() {
       <div className="  pl-10 pr-6 h-[500px] flex justify-between mt-[60px] bg-[#f9f8f9] rounded-[10px]">
         <div className=" h-full remove-scrollbar  flex overflow-y-auto w-[51%] justify-between">
           <div className=" remove-scrollbar  h-full text-left overflow-y-auto w-[45%]">
-            <div className=" h-full space-y-4 ">
+            <div className=" h-full space-y-4 animate-down ">
               {testimonials.map((testimony) => (
                 <TestimonyCard
                   up
@@ -31,7 +31,7 @@ export default function TestimonialSection() {
             </div>
           </div>
           <div className=" remove-scrollbar text-left h-full overflow-y-auto w-[45%]">
-            <div className="h-full  space-y-4 ">
+            <div className="h-full  space-y-4 animate-up ">
               {testimonials.map((testimony) => (
                 <TestimonyCard
                   key={testimony.id}
