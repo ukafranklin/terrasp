@@ -69,7 +69,7 @@ export default async function page({ params: { slug } }) {
         <meta name="description" content={post.description} />
       </Head>
 
-      <div className=" lg:pt-[150px] pt-[80px] ">
+      <div className=" lg:pt-[150px] pt-[120px] ">
         <BlogPostHeader
           title={post.title}
           category={post?.categories?.map((category) => category.title)}
@@ -81,14 +81,14 @@ export default async function page({ params: { slug } }) {
           image={urlFor(post.mainImage).url()}
         />
 
-        <div className="relative px-[37px] lg:px-[90px] mt-[100px] lg:pb-[93px]">
+        <div className="relative px-[37px] lg:px-[90px] mt-[70px] lg:pb-[93px]">
           <p className=" mb-3 text-lg font-cairo capitalize text-darkPurple font-medium break-words first-letter:font-bold first-letter:text-[96px]">
             {post.description}
           </p>
           <PortableText value={post.body} components={RichTextComponents} />
-          {morePosts?.length > 0 && (
-            <div className=" mt-[93px]">
-              <h2 className=" font-barlow text-[40px] font-bold text-darkPurple mb-[70px]">
+          {morePosts?.length > 1 && (
+            <div className=" lg:mt-[93px]">
+              <h2 className=" font-barlow text-[40px] font-bold mb-9 text-darkPurple lg:mb-[70px]">
                 More Stories
               </h2>
               {morePosts

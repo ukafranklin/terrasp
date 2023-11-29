@@ -50,7 +50,7 @@ export default function HeroSection() {
             ))}
           </div>
         </div>
-        <div className=" w-full lg:w-auto">
+        <div className=" w-full lg:max-w-[500px] ">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.645739429615!2d3.4569492740628607!3d6.439520724135488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4fff0e1c30d%3A0x6a46a5c6eae79c6!2s5a%20Iweanya%20Ugbogoh%20Cres%2C%20Lekki%20Phase%20I%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1700780171336!5m2!1sen!2sng"
             width="100%"

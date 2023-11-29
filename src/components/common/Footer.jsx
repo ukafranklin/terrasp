@@ -29,7 +29,7 @@ export default function Footer() {
     },
   ];
   return (
-    <footer className=" z-[700000] isolate md:px-[50px] px-[37px] py-[56px] lg:pl-[170px] lg:pr-[83px] lg:py-[68px] bg-[#16022A] ">
+    <footer className=" z-[700000] isolate md:px-[50px] px-[31px] py-[56px] lg:pl-[170px] lg:pr-[83px] lg:py-[68px] bg-[#16022A] ">
       <div className=" flex  flex-wrap-reverse justify-between mb-[92px]">
         <div>
           <div className=" mb-11">
@@ -49,7 +49,10 @@ export default function Footer() {
         </div>
         <div className=" mb-[79px] lg:mb-0 flex lg:justify-normal justify-between lg:gap-9 flex-wrap ">
           {footerNavigationLinks.map((links) => (
-            <div key={links.id} className=" min-w-[161px] mb-6 lg:mb-0 ">
+            <div
+              key={links.id}
+              className=" min-w-[100px] lg:min-w-[161px] mb-6 lg:mb-0 "
+            >
               <h3 className=" mb-4 text-[#893687] font-barlow font-bold text-xl leading-10 capitalize">
                 {links.title}
               </h3>

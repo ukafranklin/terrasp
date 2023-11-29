@@ -83,16 +83,21 @@ export const navigationLinks = [
     id: 1,
     subLinks: [
       {
-        title: "Privacy",
-        href: "/legal",
-      },
-      {
-        title: "TOS",
-        href: "/legal",
-      },
-      {
         title: "Compliance",
         href: "/legal",
+      },
+      {
+        title: "Privacy",
+        href: "/legal/#privacy",
+      },
+      {
+        title: "Whistle Blowing Policy",
+        href: "/legal/#whistleBlowing",
+        download: true,
+      },
+      {
+        title: "Confidentiality Policy",
+        href: "",
       },
     ],
   },
@@ -368,52 +373,58 @@ export const productsSections = [
 ];
 export const teamData = [
   {
-    id: 17,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 81,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 91,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 132,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 13,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 123,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 109,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
     id: 167,
     name: "Olukayode Adeniji",
     title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
+    image: "Terra/kayode_2x_ehsbhe",
+  },
+  {
+    id: 17,
+    name: "Ifeoma  ONIANWA",
+    title: "Operations Officer",
+    image: "Terra/ifeoma_2x_tfcz1z",
+  },
+  {
+    id: 81,
+    name: "Timothy Ojoma",
+    title: "Accountant",
+    image: "Terra/timothy_2x_bdiupa",
+  },
+  {
+    id: 91,
+    name: "Raymond Bessidone ",
+    title: "Operations Officer",
+    image: "Terra/raymond_2x_ti5p6q",
+  },
+  {
+    id: 132,
+    name: "Adekunle AJAYI",
+    title: "Team Lead - Operations",
+    image: "Terra/adekunle_2x_mfaklv",
+  },
+  {
+    id: 13,
+    name: "Confidence Madu",
+    title: "HR Officer",
+    image: "Terra/confi_2x_izmcnt",
+  },
+  {
+    id: 123,
+    name: "Uche Mgbeahuru ",
+    title: "HR Manager",
+    image: "Terra/uche_2x_nqtzrj",
+  },
+  {
+    id: 167,
+    name: "Oluwafemi Ajayi",
+    title: "Chief Compliance Officer",
+    image: "Terra/Ajayi_2x_h8udsv",
+  },
+  {
+    id: 109,
+    name: "Daniella Obia",
+    title: "Team Lead - Settlement & Reconciliation",
+    image: "Terra/daniella_2x_wznyyp",
   },
 ];
 export const valuesData = [

@@ -17,7 +17,7 @@ export default function MobileNavbar() {
   return (
     <header className="z-[90000000] border-b-[1px] border-white border-solid fixed w-full top-0 bg-white">
       <nav className="relative bg-white  z-[8999999999] items-center w-full flex justify-between md:px-[40px] px-[20px] py-[20px] lg:hidden">
-        <div className="w-30%">
+        <Link href="/" className="w-30%">
           <Image
             src={Logo}
             height={40}
@@ -25,7 +25,7 @@ export default function MobileNavbar() {
             width={108}
             alt="LOGO"
           />
-        </div>
+        </Link>
         <div className="text-darkPurple">
           <button
             className="text-darkPurple text-[30px]"

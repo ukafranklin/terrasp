@@ -15,7 +15,7 @@ export default function Team({ image, name, title }) {
         <h3 className=" text-darkPurple font-cairo text-xl font-extrabold capitalize">
           {name}
         </h3>
-        <p className=" text-darkPurple font-cairo text-lg capitalize font-medium">
+        <p className=" truncate text-darkPurple font-cairo text-lg capitalize font-medium">
           {title}
         </p>
       </div>

@@ -35,14 +35,14 @@ export default function OtherProduct() {
         </svg>
       </div>
       <div
-        className=" min-h-[700px] flex flex-wrap justify-between mb-[83px] lg:mb-[100px]"
+        className="  flex flex-wrap justify-between mb-[83px] lg:mb-[100px]"
         id="store"
       >
         <div className="lg:w-[45.3%] w-full self-start min-h-[503px] border-dashed border border-yellow rounded-[30px] px-[33px] lg:px-[53px] pt-[50px] h-auto pb-[63px] lg:pr-[63px] mb-[70px] mg:mb-[0]">
           <h2 className="  text-[41px] font-barlow font-bold leading-[58px] text-yellow">
             Store
           </h2>
-          <p className=" mt-[15px] mb-11 text-justify text-white text-lg font-medium font-cairo capitalize">
+          <p className=" mt-[15px] mb-11 lg:text-justify text-white text-lg font-medium font-cairo capitalize">
             Give your customers the gift of modern, frictionless, painless
             payments. Integrate TerraSwitach once and let your customers pay you
             however they want. Give your customers the gift of modern,
@@ -59,12 +59,12 @@ export default function OtherProduct() {
         </div>
         <div
           id="api"
-          className=" w-full lg:w-[45.3%] self-end  min-h-[503px] border-dashed border border-yellow rounded-[30px] px-[33px] lg:px-[53px] pt-[50px] pb-[63px] lg:pr-[63px]"
+          className=" w-full lg:w-[45.3%] self-end   border-dashed border border-yellow rounded-[30px] px-[33px] lg:px-[53px] pt-[50px] pb-[63px] lg:pr-[63px]"
         >
           <h2 className="  text-[41px] font-barlow font-bold leading-[58px] text-yellow">
             API
           </h2>
-          <p className=" mt-[15px] mb-11 text-justify text-white text-lg font-medium font-cairo capitalize">
+          <p className=" mt-[15px] mb-11 lg:text-justify text-white text-lg font-medium font-cairo capitalize">
             Give your customers the gift of modern, frictionless, painless
             payments. Integrate TerraSwitach once and let your customers pay you
             however they want. Give your customers the gift of modern,

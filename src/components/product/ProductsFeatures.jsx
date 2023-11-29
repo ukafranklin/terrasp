@@ -8,6 +8,7 @@ export default function ProductsFeatures() {
         <FlexCard
           key={product.id}
           title={product.title}
+          link={product.link}
           description={product.description}
           href={product.href}
           cta={product.cta}

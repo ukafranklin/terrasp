@@ -6,6 +6,11 @@ import Partners from "@/components/home/Partners";
 import PaymentSection from "@/components/home/PaymentSection";
 import SeamlessSection from "@/components/home/SeamlessSection";
 import TestimonialSection from "@/components/home/TestimonialSection";
+export const metadata = {
+  title: "HomePage",
+  description:
+    "Experience secure, innovative payment solutions with TerraSwitch - your trusted partner in seamless transaction processing.",
+};
 
 export default function Home() {
   return (

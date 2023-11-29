@@ -26,7 +26,7 @@ export default function CompliancePolicy() {
           </div>
         </div>
       </div>
-      <div>
+      <div id="privacy">
         <h3 className=" text-[600] font-[600] text-[25px] leading-[198%] ">
           Privacy Policy
         </h3>

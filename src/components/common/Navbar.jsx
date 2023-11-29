@@ -9,7 +9,7 @@ import MobileNavbar from "./MobileNavbar";
 export default function Navbar() {
   return (
     <>
-      <header className="px-[170px] hidden md:block py-4  border-solid border-[#4E0F4E2B] border-b-solid border-b ">
+      <header className="px-[170px] max-[1200px]:px-[60px] hidden md:block py-4  border-solid border-[#4E0F4E2B] border-b-solid border-b ">
         <nav className="  flex items-center font-barlow justify-between">
           <Link href="/">
             <Image src={Logo} alt="" />
@@ -47,7 +47,7 @@ export default function Navbar() {
             </a>
             <Link
               href="/contact"
-              className="bg-purple rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] text-white"
+              className="bg-purple hidden lg:block rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] text-white"
             >
               Contact Us
             </Link>

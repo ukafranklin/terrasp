@@ -3,8 +3,7 @@ import HeroSection from "@/components/blog/HeroSection";
 import GetStarted from "@/components/home/GetStarted";
 import { sanityClient } from "../../../sanity";
 export const metadata = {
-  title: "Terass Bloig",
-  description: "bla bla bvla",
+  title: "Terra Blogs",
 };
 
 export default async function page() {

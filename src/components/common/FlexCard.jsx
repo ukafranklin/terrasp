@@ -7,6 +7,7 @@ export default function FlexCard({
   description,
   cta,
   href,
+  link,
   bg,
   reverse,
   id,
@@ -17,7 +18,8 @@ export default function FlexCard({
       <div
         className={`bg-[${bg}] ${
           id === 3 && "peach-color"
-        } relative isolate flex flex-wrap lg:gap-[50px] pb-[200px] lg:pb-[300px] px-[37px] md:px-[50px] lg:px-[170px] pt-[0px]`}
+        } relative isolate flex flex-wrap  lg:gap-[50px] pb-[200px] lg:pb-[300px] px-[37px] md:px-[50px] lg:px-[170px] pt-[0px]`}
+        id={link + ""}
       >
         <Feature
           title={title}

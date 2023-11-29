@@ -16,7 +16,7 @@ export default function BlogCard({
             {category && <h5 className="font-[700]">{category}</h5>}
             <p className=" font-medium">{date}</p>
           </div>
-          <h2 className="lg:mb-4 font-bold font-barlow text-[30px] lg:text-[35px] text-darkPurple leading-[141.429%]">
+          <h2 className="lg:mb-4 font-bold font-barlow leading-[143.333%]   text-[30px] lg:text-[35px] text-darkPurple lg:leading-[141.429%]">
             {title}
           </h2>
           <p className=" text-truncate text-justify text-darkPurple font-cairo font-medium capitalize">

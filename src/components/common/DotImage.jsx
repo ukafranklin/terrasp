@@ -6,7 +6,7 @@ export default function DotImage({
   radius = "rounded-tr-[60%]",
 }) {
   return (
-    <div className=" w-full lg:w-[50%] mb-8 lg:mb-0 mt-8 lg:mt-0  flex  lg:min-h-[540px] min-h-[350px] relative isolate ">
+    <div className=" w-full lg:w-[50%] max-w-[590px] mb-8 lg:mb-0 mt-8 lg:mt-0  flex  lg:min-h-[540px] min-h-[350px] relative isolate ">
       <div className=" w-[90%] lg:w-[86%] max-w-[471px] mt-auto  self-end">
         <CloudImage
           src={image}
@@ -20,7 +20,7 @@ export default function DotImage({
       <Image
         src={dots}
         alt=""
-        className=" lg:w-auto w-[269px] absolute top-0 right-0 -z-[1]"
+        className=" lg:w-[394px] w-[269px] absolute top-0 right-0 -z-[1]"
       />
     </div>
   );

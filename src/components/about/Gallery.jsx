@@ -14,7 +14,7 @@ export default function Gallery() {
         <div className=" lg:col-span-2 lg:row-span-3">
           <CloudImage
             className="w-full h-full object-cover"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/team4_2x_hlv895"
             width={1884}
             height={1884}
           />
@@ -22,7 +22,7 @@ export default function Gallery() {
         <div className="lg:col-span-2 lg:row-span-2">
           <CloudImage
             className="w-full h-full object-cover"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/team2_2x_yogwqs"
             width={1884}
             height={1884}
           />
@@ -30,7 +30,7 @@ export default function Gallery() {
         <div className=" lg:col-span-1 lg:row-span-1">
           <CloudImage
             className="w-full h-full object-cover object-top"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/kayode_2x_ehsbhe"
             width={1884}
             height={1884}
           />
@@ -38,7 +38,7 @@ export default function Gallery() {
         <div className=" lg:col-span-1 lg:row-span-1">
           <CloudImage
             className="w-full h-full object-cover object-top"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/uche_2x_nqtzrj"
             width={1884}
             height={1884}
           />
@@ -46,7 +46,7 @@ export default function Gallery() {
         <div className=" lg:col-span-1 lg:row-span-1">
           <CloudImage
             className="w-full h-full object-cover object-top"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/confi_2x_izmcnt"
             width={1884}
             height={1884}
           />
@@ -54,7 +54,7 @@ export default function Gallery() {
         <div className=" lg:col-span-1 lg:row-span-1">
           <CloudImage
             className="w-full h-full object-cover object-top"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/team3_1x_erimrs"
             width={1884}
             height={1884}
           />
@@ -62,7 +62,7 @@ export default function Gallery() {
         <div className=" lg:col-start-1 lg:row-start-4 lg:col-span-2 lg:row-span-1">
           <CloudImage
             className="w-full h-full object-cover"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/team1_2x_jd0nx1"
             width={1884}
             height={1884}
           />
@@ -70,7 +70,7 @@ export default function Gallery() {
         <div className=" lg:col-span-3 lg:col-start-3 lg:row-start-3 lg:row-span-2">
           <CloudImage
             className="w-full h-full object-cover "
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/team2_2x_yogwqs"
             width={1884}
             height={1884}
           />
@@ -78,7 +78,7 @@ export default function Gallery() {
         <div className=" lg:col-span-1 lg:row-span-1">
           <CloudImage
             className="w-full h-full object-cover object-top"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/team5_2x_c95yme"
             width={1884}
             height={1884}
           />
@@ -86,7 +86,7 @@ export default function Gallery() {
         <div className=" lg:col-span-3 lg:row-span-3">
           <CloudImage
             className="w-full h-full object-cover object-top"
-            src="Terra/im1_4x_tav8rw"
+            src="Terra/team3_1x_erimrs"
             width={1884}
             height={1884}
           />

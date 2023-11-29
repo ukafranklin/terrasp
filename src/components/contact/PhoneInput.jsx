@@ -1,4 +1,5 @@
 "use client";
+import { Input } from "@/components/ui/input";
 import { Check } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -125,6 +126,7 @@ export default function PhoneInput() {
         locations={locations}
         setValue={setLocation}
         value={location}
+        name="countryCode"
         flag={
           (searchSelectedCountry && searchSelectedCountry.flags.png) ||
           (searchSelectedCountry && searchSelectedCountry.flags.svg) ||
@@ -135,6 +137,18 @@ export default function PhoneInput() {
           (searchSelectedCountry && searchSelectedCountry.idd.suffixes[0]) ||
           "201"
         }
+      />
+      <Input
+        name="country"
+        value={location}
+        className=" invisible w-0 h-0 p-0"
+      />
+      <Input
+        name="countryCode"
+        value={`${searchSelectedCountry && searchSelectedCountry.idd.root} ${
+          searchSelectedCountry && searchSelectedCountry.idd.suffixes[0]
+        }`}
+        className=" invisible w-0 h-0 p-0"
       />
     </div>
   );

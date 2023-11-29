@@ -3,6 +3,11 @@ import ContactForm from "@/components/contact/ContactForm";
 import HeroSection from "@/components/contact/HeroSection";
 import GetStarted from "@/components/home/GetStarted";
 import { faqData } from "@/data";
+export const metadata = {
+  title: "Contact Us",
+  description:
+    "Get in touch with TerraSwitch for top-notch payment solutions – our expert team is ready to assist and elevate your business.",
+};
 
 export default function page() {
   return (
