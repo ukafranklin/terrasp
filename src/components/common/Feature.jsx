@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Feature({ title, description, cta, href, list, link }) {
   return (
-    <div className=" w-[41%] self-center" id={link}>
+    <div className=" w-full lg:w-[41%] self-center" id={link}>
       <h1 className=" leading-[141.463%] font-barlow font-[700] text-[41px] max-w-[470px] text-[#240046] ">
         {title ? (
           title
@@ -40,7 +40,7 @@ export default function Feature({ title, description, cta, href, list, link }) {
           <a
             href={href}
             target="_blank"
-            className="bg-darkPurple hover:opacity-[0.5] rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] text-white"
+            className="bg-darkPurple hover:opacity-[0.5] rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] truncate text-white"
           >
             {cta}
           </a>

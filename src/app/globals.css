@@ -135,3 +135,11 @@ ul {
 h4 {
   font-weight: 700;
 }
+.text-truncate {
+  display: -webkit-box;
+  max-width: 700px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

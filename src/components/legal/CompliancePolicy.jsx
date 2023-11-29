@@ -3,13 +3,13 @@ import Image from "next/image";
 
 export default function CompliancePolicy() {
   return (
-    <div className=" pt-[70px] pb-[50px] leading-[32px] px-[170px] text-darkPurple font-cairo text-justify text-lg capitalize ">
+    <div className=" pt-[70px] pb-[50px] leading-[32px] md:px-[50px] px-[37px] lg:px-[170px] text-darkPurple font-cairo text-justify text-lg capitalize ">
       <div>
-        <h2 className=" mb-6 text-[35px] text-[#240046] font-barlow font-bold leading-[147.429%] w-[44.5%]">
+        <h2 className=" mb-6 text-[35px] text-[#240046] font-barlow font-bold leading-[147.429%] w-full lg:w-[44.5%]">
           Terra Switch is PCI DSS Level 1 Certified
         </h2>
-        <div className=" flex justify-between mb-6">
-          <p className=" w-[44.5%]">
+        <div className=" flex justify-between flex-wrap mb-6">
+          <p className=" w-full lg:w-[44.5%]">
             At TerraSwitch, we uphold legal compliance as a cornerstone of our
             operations, proudly holding the PCI DSS Level 1 Certification, the
             highest level of security standard in the payment industry.{" "}

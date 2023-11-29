@@ -2,8 +2,8 @@ import BigLink from "../common/BigLink";
 
 export default function OtherProduct() {
   return (
-    <div className=" px-[170px] pt-10 isolate pb-[200px] relative bg-[#240046]">
-      <div className="absolute z-[-1]  top-[-220px] left-0 w-full ">
+    <div className=" md:px-[50px] px-[37px] lg:px-[170px] pt-10 isolate pb-[200px] relative bg-[#240046]">
+      <div className="absolute z-[-1] hidden lg:block top-[-220px] left-0 w-full ">
         {" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,11 +19,26 @@ export default function OtherProduct() {
           />
         </svg>
       </div>
+      <div className={` lg:hidden absolute z-[-1] top-[-120px] left-0 w-full `}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          height="135"
+          preserveAspectRatio="none"
+          viewBox="0 0 430 135"
+          fill="none"
+        >
+          <path
+            d="M447.5 105.5L-12 0V121L447.5 134.084V105.5Z"
+            fill="#240046"
+          />
+        </svg>
+      </div>
       <div
-        className=" min-h-[700px] flex justify-between mb-[100px]"
+        className=" min-h-[700px] flex flex-wrap justify-between mb-[83px] lg:mb-[100px]"
         id="store"
       >
-        <div className=" w-[45.3%] self-start min-h-[503px] border-dashed border border-yellow rounded-[30px] px-[53px] pt-[50px] h-auto pb-[63px] pr-[63px]">
+        <div className="lg:w-[45.3%] w-full self-start min-h-[503px] border-dashed border border-yellow rounded-[30px] px-[33px] lg:px-[53px] pt-[50px] h-auto pb-[63px] lg:pr-[63px] mb-[70px] mg:mb-[0]">
           <h2 className="  text-[41px] font-barlow font-bold leading-[58px] text-yellow">
             Store
           </h2>
@@ -44,7 +59,7 @@ export default function OtherProduct() {
         </div>
         <div
           id="api"
-          className=" w-[45.3%] self-end  min-h-[503px] border-dashed border border-yellow rounded-[30px] px-[53px] pt-[50px] pb-[63px] pr-[63px]"
+          className=" w-full lg:w-[45.3%] self-end  min-h-[503px] border-dashed border border-yellow rounded-[30px] px-[33px] lg:px-[53px] pt-[50px] pb-[63px] lg:pr-[63px]"
         >
           <h2 className="  text-[41px] font-barlow font-bold leading-[58px] text-yellow">
             API
@@ -61,7 +76,7 @@ export default function OtherProduct() {
             bg="bg-white"
             color="text-darkPurple"
           >
-            See Documentation
+            See Docs
           </BigLink>
         </div>
       </div>

@@ -368,36 +368,6 @@ export const productsSections = [
 ];
 export const teamData = [
   {
-    id: 1,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 12,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 13,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 15,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 16,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
     id: 17,
     name: "Olukayode Adeniji",
     title: "Head of Business",
@@ -441,24 +411,6 @@ export const teamData = [
   },
   {
     id: 167,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 145,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 23,
-    name: "Olukayode Adeniji",
-    title: "Head of Business",
-    image: "Terra/im3_3x_pdnsk5",
-  },
-  {
-    id: 56,
     name: "Olukayode Adeniji",
     title: "Head of Business",
     image: "Terra/im3_3x_pdnsk5",

@@ -4,12 +4,12 @@ import CloudImage from "../common/CloudImage";
 
 export default function PoweredSection() {
   return (
-    <div className=" px-[170px] pt-[95px] pb-[100px]">
-      <h2 className=" text-darkPurple text-[50px] font-bold font-barlow max-w-[849px] mx-auto text-center leading-[116%]">
+    <div className=" lg:px-[170px] px-[37px] md:px-[50px] pt-[95px] pb-[100px]">
+      <h2 className=" text-darkPurple text-[40px] lg:text-[50px] font-bold font-barlow lg:max-w-[849px] mx-auto text-left lg:text-center leading-[116%]">
         Powering A New Generation Of Businesses In Africa
       </h2>
-      <div className=" flex justify-between mt-[72px]">
-        <div className=" w-[48%]   flex  min-h-[370px] relative isolate ">
+      <div className=" flex flex-wrap-reverse justify-between mt-5 lg:mt-[72px]">
+        <div className=" w-full mt-10 lg:mt-0 lg:w-[48%]   flex  min-h-[370px] relative isolate ">
           <div className=" w-[90%] mt-auto ml-auto self-end">
             <CloudImage
               src="Terra/im2_4x_zzotae"
@@ -25,7 +25,7 @@ export default function PoweredSection() {
             className=" w-[272px] h-[240px] object-cover absolute top-0 left-0 -z-[1]"
           />
         </div>
-        <div className=" w-[45%] self-center">
+        <div className=" w-full lg:w-[45%] self-center">
           <p className=" text-purple font-cairo font-medium text-lg capitalize">
             In the heart of Lagos, 2021 marked the beginning of an extraordinary
             journey for TerraSwitch, born from a vision to redefine the payment

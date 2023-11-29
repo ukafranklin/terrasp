@@ -11,11 +11,11 @@ export default function Partners() {
     "up_3x_fljvyu",
   ];
   return (
-    <div className="clip bg-white mt-[-70px] px-[170px] pb-[55px] pt-6">
+    <div className="clip bg-white mt-[-70px] md:px-[50px] px-[37px] lg:px-[170px] pb-[55px] pt-6">
       <h2 className=" mb-[18px] text-darkPurple font-barlow text-xl font-semibold">
         Trusted By Excellent Partners
       </h2>
-      <div className=" flex gap-[52px] items-center">
+      <div className=" flex gap-[26px] lg:gap-[52px] items-center">
         {logos.map((logo) => (
           <CldImage
             src={`Terra/${logo}`}

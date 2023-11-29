@@ -1,8 +1,7 @@
-import Image from "next/image";
 import CloudImage from "../common/CloudImage";
 export default function Team({ image, name, title }) {
   return (
-    <div className=" min-w-[181px]">
+    <div className=" min-w-[180px]">
       <div>
         <CloudImage
           src={image}

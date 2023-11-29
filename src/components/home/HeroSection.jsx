@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <div className="flex bg-linear justify-between px-[170px] pt-[89px] pb-[170px]">
-      <div className=" w-[45%] self-center">
+    <div className="flex bg-linear justify-between md:px-[50px] px-[22px] lg:px-[170px] pt-[113px] lg:pt-[89px] pb-[170px]">
+      <div className=" lg:w-[45%] self-center">
         <h1 className=" leading-[141.463%] font-barlow font-[700] text-[41px] max-w-[470px] text-[#240046] ">
           Flexible Payment <br></br> Options to Solve Your <br></br>Everyday{" "}
           <span className=" text-purple">Business Needs</span>
@@ -14,7 +14,7 @@ export default function HeroSection() {
           Whether you&apos;re a Startup or a multinational company, digital
           savvy or not, our innovative solutions ensure efficient, secure.
         </p>
-        <div className=" mt-11 flex gap-8">
+        <div className=" mt-8 lg:mt-11 flex gap-8">
           <Link
             href="#"
             className=" bg-[#240046] rounded-[10px] py-[19px]  text-[15px] font-manrope font-[700] text-white max-w-[224px] text-center w-full"
@@ -29,7 +29,7 @@ export default function HeroSection() {
           </Link>
         </div>
       </div>
-      <div className=" relative isolate w-[45%]">
+      <div className=" lg:block hidden relative isolate w-[45%]">
         <div className=" relative isolate w-[75%] min-w-[369px] mx-auto">
           <CldImage
             src="Terra/im1_4x_ar1up1"

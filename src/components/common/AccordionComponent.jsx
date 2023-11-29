@@ -22,7 +22,7 @@ export default function AccordionComponent({ data, title, description }) {
         <Accordion type="single" collapsible>
           {data.map((item) => (
             <AccordionItem key={item.id} value={item.id}>
-              <AccordionTrigger className=" font-barlow font-semibold text-[25px] text-darkPurple">
+              <AccordionTrigger className=" font-barlow font-semibold text-[25px] text-darkPurple text-left ">
                 {item.key}
               </AccordionTrigger>
               <AccordionContent className=" p-9 text-justify text-lg font-cairo font-medium text-darkPurple capitalize">

@@ -1,4 +1,4 @@
-import { coloredWave } from "@/assets";
+import { deskWave, mobileWave } from "@/assets";
 import Image from "next/image";
 
 export default function WavySection() {
@@ -86,8 +86,17 @@ export default function WavySection() {
   ];
   return (
     <div className=" bg-[#240046;]  relative mb-[-50px] h-[552px] isolate">
-      <Image src={coloredWave} alt="" className=" w-full object-cover" />
-      <div className=" absolute z-50 bottom-[-350px] left-[50%] translate-x-[-50%] w-full">
+      <Image
+        src={deskWave}
+        alt=""
+        className=" w-full object-fill hidden lg:block"
+      />
+      <Image
+        src={mobileWave}
+        alt=""
+        className="  block lg:hidden w-full object-fill"
+      />
+      <div className=" absolute lg:block hidden z-50 bottom-[-300px] left-[50%] translate-x-[-50%] w-full">
         {" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -103,18 +112,22 @@ export default function WavySection() {
           />
         </svg>
       </div>
-      <p className=" absolute top-[32px] font-manrope text-[48px] font-extrabold text-white z-[-1] rotate-[-17deg] left-[70px]">
-        Store
-      </p>
-      <p className=" absolute top-[100px] font-manrope text-[48px] font-extrabold text-darkPurple   rotate-[12.671deg] right-[190px]">
-        Payment Link
-      </p>
-      <p className=" absolute top-[210px] font-manrope text-[48px] font-extrabold text-darkPurple   rotate-[-8.911deg] left-[230px]">
-        Invoices
-      </p>
-      <p className=" absolute top-[340px] font-manrope text-[48px] font-extrabold text-white  rotate-[11.163deg] right-[190px]">
-        Subscriptions
-      </p>
+      <div className=" lg:hidden  absolute z-50 bottom-[40px] left-[50%] translate-x-[-50%] w-full">
+        {" "}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          height="332"
+          viewBox="0 0 430 332"
+          preserveAspectRatio="none"
+          fill="none"
+        >
+          <path
+            d="M581 92.5577C315.222 -30.0965 110.784 -31.6063 -155 92.5577V332H581V92.5577Z"
+            fill="#16022A"
+          />
+        </svg>
+      </div>
     </div>
   );
 }

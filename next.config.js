@@ -6,6 +6,7 @@ const nextConfig = {
       "flagcdn.com",
       "cdn.britannica.com",
       "upload.wikimedia.org",
+      "cdn.sanity.io",
     ],
   },
 };

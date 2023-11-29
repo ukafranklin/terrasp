@@ -21,9 +21,9 @@ export default function HeroSection() {
   ];
   return (
     <>
-      <div className=" bg-purpleGradient h-[460px] flex items-center justify-center ">
-        <div className=" text-center text-white max-w-[446px] mx-auto">
-          <h1 className=" font-barlow text-[50px] leading-[116%] font-bold mb-7">
+      <div className=" bg-purpleGradient h-[430px] lg:h-[460px]  pl-[37px] flex items-center lg:justify-center ">
+        <div className=" text-left lg:text-center text-white max-w-[446px] mx-auto">
+          <h1 className=" font-barlow text-[40px] lg:text-[50px] leading-[116%] font-bold mb-5 lg:mb-7">
             Got Questions Or Inquiries?
           </h1>
           <p className="capitalize text-lg font-cairo opacity-[0.85]">
@@ -31,8 +31,8 @@ export default function HeroSection() {
           </p>
         </div>
       </div>
-      <div className=" flex justify-between items-center px-[170px] py-[125px]">
-        <div>
+      <div className=" flex justify-between  flex-wrap items-center md:px-[50px] lg:px-[170px] px-[37px] py-[70px] lg:py-[125px]">
+        <div className=" w-full lg:w-auto mb-[63px] lg:mb-0">
           <h2 className=" text-darkPurple font-barlow font-bold mb-6 text-[35px]">
             Contact Information
           </h2>
@@ -50,10 +50,10 @@ export default function HeroSection() {
             ))}
           </div>
         </div>
-        <div>
+        <div className=" w-full lg:w-auto">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.645739429615!2d3.4569492740628607!3d6.439520724135488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4fff0e1c30d%3A0x6a46a5c6eae79c6!2s5a%20Iweanya%20Ugbogoh%20Cres%2C%20Lekki%20Phase%20I%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1700780171336!5m2!1sen!2sng"
-            width="460"
+            width="100%"
             height="292"
             style={{ border: "0" }}
             allowfullscreen=""

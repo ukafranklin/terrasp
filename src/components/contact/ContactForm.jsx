@@ -2,6 +2,7 @@
 import { headphone } from "@/assets";
 import Image from "next/image";
 import { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import InputField from "./InputField";
@@ -15,6 +16,7 @@ export default function ContactForm() {
     phone: "",
     message: "",
   });
+  const [capVal, setCapVal] = useState();
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -31,12 +33,12 @@ export default function ContactForm() {
     });
   };
   return (
-    <div className=" pt-[79px] pb-[54px] pl-[170px] bg-[#F7EFF7;] flex justify-between items-center ">
-      <div className=" w-[45%] ">
+    <div className=" pt-[53px] lg:pt-[79px] pb-[54px] pr-[37px] md:pr-[50px] lg:pr-0 lg:pl-[170px] bg-[#F7EFF7;] pl-[37px] flex justify-between items-center ">
+      <div className=" w-full lg:w-[45%] ">
         <h2 className=" text-darkPurple font-barlow text-[35px] font-bold ">
           Start A Conversation
         </h2>
-        <form className=" w-[80%]">
+        <form className=" w-full lg:w-[80%]">
           <div className=" mb-5">
             <InputField
               value={formData.firstName}
@@ -83,6 +85,12 @@ export default function ContactForm() {
               rows={3}
             />
           </div>
+          <div className=" mt-2">
+            <ReCAPTCHA
+              sitekey="6LeWeB4pAAAAAO0yiWHbjCvpmmFRXpMigiV2IqrR"
+              onChange={(value) => setCapVal(value)}
+            />
+          </div>
           <div>
             <Button className=" bg-yellow mt-5 text-darkPurple font-manrope text-[15px] font-bold py-[19px] px-[51px]">
               Send
@@ -90,7 +98,7 @@ export default function ContactForm() {
           </div>
         </form>
       </div>
-      <div className=" w-[53%] ">
+      <div className=" hidden lg:block w-[53%] ">
         <Image src={headphone} alt="" className=" ml-auto" />
       </div>
     </div>

@@ -8,7 +8,7 @@ export default function BigLink({
   return (
     <Link
       href={href}
-      className={` ${bg} rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] ${color}`}
+      className={` ${bg} truncate rounded-[10px] py-[19px] px-[51px] text-[15px] font-manrope font-[700] ${color}`}
     >
       {children}
     </Link>

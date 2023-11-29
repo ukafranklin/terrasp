@@ -5,18 +5,18 @@ import CloudImage from "../common/CloudImage";
 
 export default function HeroSection() {
   return (
-    <div className=" relative  bg-purpleGradient w-full min-h-[602px] py-[120px] px-[170px] ">
-      <div className=" flex h-full items-center justify-center">
-        <div className=" w-[30%]">
-          <h1 className=" font-barlow text-white font-bold text-[50px] mb-6">
+    <div className=" relative  bg-purpleGradient w-full  h-[430px] lg:min-h-[602px] lg:py-[120px] lg:px-[170px] px-[37px] md:px-[50px] py-[150px] ">
+      <div className=" flex h-full flex-wrap items-center justify-center">
+        <div className=" w-full lg:w-[30%]">
+          <h1 className=" font-barlow  lg:text-left text-center text-white font-bold text-[40px] lg:text-[50px] mb-2 lg:mb-6">
             Our Story
           </h1>
-          <p className=" text-lg font-cairo font-medium text-[#ffffff86]">
+          <p className=" lg:text-lg text-[13px] lg:text-left text-center font-cairo font-medium text-[#ffffff86]">
             Solving Financial problems through inspired solutions.
           </p>
         </div>
-        <div className=" w-[58%] border-dashed border border-[#FF9E01] rounded-[30px] ">
-          <div className=" relative top-[-24px] left-[21px]">
+        <div className=" relative top-[41px] lg:top-0 w-full lg:w-[58%] border-dashed border border-[#FF9E01] rounded-[30px] ">
+          <div className=" relative  lg:top-[-24px] left-[10px] Lg:left-[21px]">
             <CloudImage
               src="Terra/im1_4x_nf09hb"
               alt=""
@@ -28,7 +28,7 @@ export default function HeroSection() {
               <FaPlay />
             </div>
           </div>
-          <div className=" absolute bottom-[62px] right-[42px] ">
+          <div className=" absolute lg:block hidden bottom-[62px] right-[42px] ">
             <Image alt="" src={orangeDots} />
           </div>
         </div>

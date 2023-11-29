@@ -9,7 +9,7 @@ export default function SeamlessSection() {
     "Verify the identity of customers",
   ];
   return (
-    <div className=" flex gap-[50px] pt-[56px] px-[170px] pb-[127px]">
+    <div className=" flex flex-wrap gap-[50px] pt-[56px] md:px-[50px] px-[30px] lg:px-[170px] pb-[127px]">
       <DotImage />
       <Feature
         list={list}
