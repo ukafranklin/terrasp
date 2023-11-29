@@ -15,7 +15,7 @@ export default function Partners() {
       <h2 className=" mb-[18px] text-darkPurple font-barlow text-xl font-semibold">
         Trusted By Excellent Partners
       </h2>
-      <div className=" flex gap-[26px] lg:gap-[52px] items-center">
+      <div className=" flex flex-wrap justify-center lg:justify-normal gap-[26px] lg:gap-[52px] items-center">
         {logos.map((logo) => (
           <CldImage
             src={`Terra/${logo}`}
