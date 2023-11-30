@@ -16,13 +16,14 @@ export default function HeroSection() {
         </p>
         <div className=" mt-8 lg:mt-11 flex gap-8">
           <Link
-            href="#"
+            href="https://test.pg.terraswitch.ng/register"
+            target="_blank"
             className=" bg-[#240046] rounded-[10px] py-[19px]  text-[15px] font-manrope font-[700] text-white max-w-[224px] text-center w-full"
           >
             Create A Free Account
           </Link>
           <Link
-            href="#"
+            href="/contact"
             className=" bg-transparent  rounded-[10px] py-[19px] text-[15px] font-manrope font-[700]  max-w-[154px] text-center w-full text-darkPurple border border-solid border-darkPurple"
           >
             Contact Sales
