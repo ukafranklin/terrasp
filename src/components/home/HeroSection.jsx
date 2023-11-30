@@ -18,13 +18,13 @@ export default function HeroSection() {
           <Link
             href="https://test.pg.terraswitch.ng/register"
             target="_blank"
-            className=" bg-[#240046] rounded-[10px] py-[19px]  text-[15px] font-manrope font-[700] text-white max-w-[224px] text-center w-full"
+            className=" bg-[#240046] rounded-[10px] py-[19px]  text-[15apx] font-manrope font-[700] text-white max-w-[224px] text-center w-full"
           >
             Create A Free Account
           </Link>
           <Link
             href="/contact"
-            className=" bg-transparent  rounded-[10px] py-[19px] text-[15px] font-manrope font-[700]  max-w-[154px] text-center w-full text-darkPurple border border-solid border-darkPurple"
+            className=" bg-transparent  rounded-[10px] py-[19px] text-[15apx] font-manrope font-[700]  max-w-[154px] text-center w-full text-darkPurple border border-solid border-darkPurple"
           >
             Contact Sales
           </Link>
