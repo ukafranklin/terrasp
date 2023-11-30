@@ -12,7 +12,7 @@ export default function HeroSection() {
             Our Story
           </h1>
           <p className=" lg:text-lg text-[13px] lg:text-left text-center font-cairo font-medium text-[#ffffff86]">
-            Solving Financial problems through inspired solutions.
+            Solving Financial problems through inspired solutions..
           </p>
         </div>
         <div className=" relative top-[41px] lg:top-0 w-full lg:w-[58%] border-dashed border border-[#FF9E01] rounded-[30px] ">
