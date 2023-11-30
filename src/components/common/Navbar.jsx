@@ -27,6 +27,8 @@ export default function Navbar() {
                   {link.subLinks.map((subLinks, index) => (
                     <Link
                       key={index}
+                      download={subLinks.fileName ? subLinks.fileName : ""}
+                      target={subLinks.fileName ? "_blank" : ""}
                       href={subLinks.href}
                       className=" block p-4 w-full hover:bg-purple hover:text-white"
                     >

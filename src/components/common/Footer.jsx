@@ -1,5 +1,5 @@
 import { FooterLogo } from "@/assets";
-import { footerNavigationLinks } from "@/data";
+import { navigationLinks } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
         </div>
         <div className=" mb-[79px] lg:mb-0 flex lg:justify-normal justify-between lg:gap-9 flex-wrap ">
-          {footerNavigationLinks.map((links) => (
+          {navigationLinks.map((links) => (
             <div
               key={links.id}
               className=" min-w-[100px] lg:min-w-[161px] mb-6 lg:mb-0 "
@@ -62,8 +62,10 @@ export default function Footer() {
                     <Link
                       className=" font-cairo text-[19px] font-semibold text-white"
                       href={link.href}
+                      target={link.fileName ? "_blank" : ""}
+                      download={link.fileName ? link.fileName : ""}
                     >
-                      {link.name}
+                      {link.title}
                     </Link>
                   </li>
                 ))}

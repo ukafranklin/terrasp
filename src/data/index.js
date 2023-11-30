@@ -92,12 +92,16 @@ export const navigationLinks = [
       },
       {
         title: "Whistle Blowing Policy",
-        href: "/legal/#whistleBlowing",
         download: true,
+        href: "/TERRA Switching & Processing Company Whistle Blowing Policy.pdf",
+        fileName:
+          "TERRA Switching & Processing Company Whistle Blowing Policy.pdf",
       },
       {
+        href: "/TERRA Switching & Processing Company Confidentiality Policy.pdf",
         title: "Confidentiality Policy",
-        href: "",
+        fileName:
+          "TERRA Switching & Processing Company Confidentiality Policy.pdf",
       },
     ],
   },
@@ -135,12 +139,12 @@ export const footerNavigationLinks = [
     subLinks: [
       {
         name: "Payment Link",
-        href: "products/#paymentLink",
+        href: "/products/#paymentLink",
         id: 1,
       },
       {
         name: "Store",
-        href: "products/#store",
+        href: "/products/#store",
         id: 2,
       },
       {

@@ -61,6 +61,8 @@ export default function MobileNavbar() {
                       <Link
                         key={index}
                         href={subLinks.href}
+                        download={subLinks.fileName ? subLinks.fileName : ""}
+                        target={subLinks.fileName ? "_blank" : ""}
                         className=" block w-full py-3 "
                         onClick={() => setOpen(false)}
                       >

@@ -12,7 +12,6 @@ export default async function page() {
      categories[]->
       } | order(_createdAt desc) `;
   const posts = await sanityClient.fetch(querys);
-  console.log(posts);
 
   return (
     <>

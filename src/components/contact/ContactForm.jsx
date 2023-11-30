@@ -60,7 +60,7 @@ export default function ContactForm() {
       );
     resetFormData();
   };
-  console.log(formData);
+
   return (
     <div className=" pt-[53px] lg:pt-[79px] pb-[54px] pr-[37px] md:pr-[50px] lg:pr-0 lg:pl-[170px] bg-[#F7EFF7;] pl-[37px] flex justify-between items-center ">
       <div className=" w-full lg:w-[45%] ">

@@ -117,9 +117,7 @@ export default function PhoneInput() {
     }
     return false;
   });
-  console.log("searchSelectedCountry:", searchSelectedCountry);
-  console.log(searchSelectedCountry && searchSelectedCountry.idd.root);
-  console.log(searchSelectedCountry && searchSelectedCountry.idd.suffixes[0]);
+
   return (
     <div>
       <ComboboxDemo
@@ -145,7 +143,7 @@ export default function PhoneInput() {
       />
       <Input
         name="countryCode"
-        value={`${searchSelectedCountry && searchSelectedCountry.idd.root} ${
+        value={`${searchSelectedCountry && searchSelectedCountry.idd.root}${
           searchSelectedCountry && searchSelectedCountry.idd.suffixes[0]
         }`}
         className=" invisible w-0 h-0 p-0"

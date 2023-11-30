@@ -5,7 +5,7 @@ import CloudImage from "../common/CloudImage";
 
 export default function HeroSection() {
   return (
-    <div className=" relative  bg-purpleGradient w-full md:mb-[320px]  min-[500px]:mb-[150px] sm:mb-[250px]  h-[430px] lg:min-h-[602px] lg:py-[120px] lg:px-[170px] px-[37px] md:px-[50px] py-[150px] ">
+    <div className=" relative  bg-purpleGradient w-full md:mb-[320px]  min-[500px]:mb-[150px] sm:mb-[250px] lg:mb-0  h-[430px] lg:min-h-[602px] lg:py-[120px] lg:px-[170px] px-[37px] md:px-[50px] py-[150px] ">
       <div className=" flex h-full flex-wrap items-center justify-center">
         <div className=" w-full lg:w-[30%]">
           <h1 className=" font-barlow  lg:text-left text-center text-white font-bold text-[40px] lg:text-[50px] mb-2 lg:mb-6">
