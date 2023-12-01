@@ -21,8 +21,7 @@ export default function HeroSection() {
               src="Terra/Terra_Main_fbbokn"
               alt=""
               width={1920}
-              height={900}
-              controls={false}
+              height={1080}
               className=" rounded-[30px] object-cover"
               colors={{
                 accent: "#FFF",
