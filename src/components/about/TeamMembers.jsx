@@ -13,7 +13,7 @@ export default function TeamMembers() {
           something enduring, while learning something new, every day.
         </p>
       </div>
-      <div className=" flex justify-center gap-[20px] lg:justify-between flex-wrap  lg:gap-[100px]">
+      <div className=" flex justify-center gap-[20px] lg:justify-between flex-wrap  lg:gap-[80px]">
         {teamData.map((team) => (
           <Team
             image={team.image}
