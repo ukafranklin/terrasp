@@ -26,7 +26,7 @@ export default function HeroSection() {
               colors={{
                 accent: "#FFF",
                 base: "#FF9E01",
-                text: "#240046",
+                text: "#fff",
               }}
             />
           </div>
